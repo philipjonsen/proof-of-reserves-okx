@@ -4,12 +4,12 @@ go 1.17
 
 require (
 	github.com/Conflux-Chain/go-conflux-sdk v1.5.3
-	github.com/btcsuite/btcd v0.23.4
+	github.com/btcsuite/btcd v0.24.2
 	github.com/btcsuite/btcd/btcec/v2 v2.3.1
-	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1
+	github.com/btcsuite/btcd/chaincfg/chainhash v1.1.0
 	github.com/dchest/blake2b v1.0.0
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.1.0
-	github.com/ethereum/go-ethereum v1.10.26
+	github.com/ethereum/go-ethereum v1.13.15
 	github.com/kilic/bls12-381 v0.1.0
 	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible
 	github.com/martinboehm/bchutil v0.0.0-20190104112650-6373f11b6efe
@@ -21,7 +21,7 @@ require (
 	github.com/sirupsen/logrus v1.9.0
 	github.com/spf13/cobra v1.6.1
 	github.com/xssnick/tonutils-go v1.6.2
-	golang.org/x/crypto v0.7.0
+	golang.org/x/crypto v0.17.0
 )
 
 require (
@@ -30,6 +30,7 @@ require (
 	github.com/dchest/blake256 v1.0.0 // indirect
 	github.com/filecoin-project/go-amt-ipld/v4 v4.0.0 // indirect
 	github.com/filecoin-project/go-hamt-ipld/v3 v3.1.0 // indirect
+	github.com/holiman/uint256 v1.2.4 // indirect
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect
 	github.com/ipfs/go-ipfs-util v0.0.2 // indirect
 	github.com/ipfs/go-ipld-cbor v0.0.6 // indirect
@@ -45,7 +46,7 @@ require (
 	github.com/sigurn/crc16 v0.0.0-20211026045750-20ab5afb07e3 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	golang.org/x/term v0.6.0 // indirect
+	golang.org/x/term v0.15.0 // indirect
 )
 
 require (
@@ -65,7 +66,7 @@ require (
 	github.com/polydawn/refmt v0.89.0 // indirect
 	github.com/smartystreets/assertions v1.13.0 // indirect
 	github.com/whyrusleeping/cbor-gen v0.0.0-20230126041949-52956bd4c9aa // indirect
-	golang.org/x/sys v0.7.0 // indirect
+	golang.org/x/sys v0.16.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	lukechampine.com/blake3 v1.1.7 // indirect
 )
@@ -73,5 +74,4 @@ require (
 require (
 	github.com/lestrrat-go/strftime v1.0.6 // indirect
 	github.com/schollz/progressbar/v3 v3.13.1
-	github.com/stretchr/testify v1.8.2 // indirect
 )
